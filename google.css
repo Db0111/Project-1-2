@@ -6,9 +6,10 @@
 
 header{
     width: 100%;
-    height: 3.5rem;
+    height: 3rem;
     margin: auto;
     font-size:0;
+
 }
 
 .header-left{
@@ -16,7 +17,6 @@ header{
     height: 3rem;
     line-height: 2rem;
     display: inline-block;
-    background-color: orange;
     text-align: left;
     font-size: 14px;
     padding: 0.7rem 1rem;
@@ -26,7 +26,6 @@ header{
     width: 50%;
     height: 3rem;
     display: inline-block;
-    background-color: red;
     text-align: right;
     font-size: 14px;
     padding: 0.7rem 1rem;
@@ -61,7 +60,6 @@ a{
     width: 100%;
     height: 3rem;
     margin: auto;
-    background-color: #f2f2f2;
     text-align: center;
 }
 
@@ -76,11 +74,54 @@ a{
 
 main{
     margin: auto;
-    height: 100%;
-    background-color: yellow;
-    padding: 1rem;
+    height: 725px;
+    width: auto;
+    position: relative;
+    font-size: 0px;
 }
 
+#googleLogo{
+    width: 17rem;
+    height: 6rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    bottom: 50px; /* 수정 */
+    transform: translate(-50%, -50%);
+
+}
+#searchcontainer{
+    position: absolute;
+    top: 45%;
+}
+#search{
+    width: 70%;
+}
+.btn-container{
+    width: 100%;
+    position: absolute;
+    margin-top: 1rem;
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#googleSearch, #lucky{
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    background-color: #f6f5f5;
+
+}
+#googleSearch{
+    width: 7rem;
+}
+#lucky{
+    width: 8rem;
+}
 footer{
     width: 100%;
     height: 3rem;
@@ -101,18 +142,17 @@ footer{
 .footer-down{
     width: 100%;
     height: 3rem;
+    line-height: 2rem;
     display: inline-block;
-    background-color: yellow;
-    text-align: left;
-    font-size: 14px;
-    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 0;
+    background-color: #f2f2f2;
+    
 }
 .footer-left{
     width: 50%;
-    height: 2rem;
-    line-height: 2rem;
+    height: 3rem;
     display: inline-block;
-    background-color: orange;
     text-align: left;
     font-size: 14px;
     padding: 0.7rem 1rem;
@@ -122,14 +162,18 @@ footer{
     width: 50%;
     height: 3rem;
     display: inline-block;
-    background-color: red;
     text-align: right;
     font-size: 14px;
     padding: 0.7rem 1rem;
-    vertical-align: top;
-
+}
+#business, #howsearchworks{
+    margin-left: 1rem;
+}
+#privacy, #terms{
+    margin-right: 1rem;
 }
 
 #setting{
     border: none;
+    vertical-align: middle;
 }
