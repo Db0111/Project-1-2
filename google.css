@@ -56,21 +56,7 @@ a{
     color: black;
 }
 
-#searchcontainer{
-    width: 100%;
-    height: 3rem;
-    margin: auto;
-    text-align: center;
-}
 
-#search{
-    width: 50%;
-    height: 3rem;
-    background-color: white;
-    border: solid 1px #d9d9d9;
-    border-radius: 30px;
-    padding-left: 1rem;
-}
 
 main{
     margin: auto;
@@ -86,44 +72,53 @@ main{
     position: absolute;
     top: 35%;
     left: 50%;
-    bottom: 50px; /* 수정 */
+    bottom: 50px; 
     transform: translate(-50%, -50%);
 
 }
+
+
 #searchcontainer{
-    position: absolute;
-    top: 45%;
-}
-#iconcontainer{
-    position: relative;
-    width: 100%;
+    width: 40rem; 
     height: 3rem;
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#search{
+    width: 40rem;
+    height: 3rem;
+    background-color: white;
+    border: solid 1px #d9d9d9;
+    border-radius: 30px;
+    padding-left: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #searchIcon, #keyboardIcon, #micIcon, #cameraIcon{
     width: 2rem;
     height: 2rem;
     position: absolute;
-    top: 46%; 
+    top: 8px;
 }
 #searchIcon{
-    left: 16%;
+    left: 2%;
 }
 #keyboardIcon{
-    left: 70%;
+    left: 78%;
 }
 #micIcon{
-    left: 75%;
+    left: 85%;
 }   
 #cameraIcon{
-    left: 80%;
-
+    left: 92%;
 }
 
-#search{
-    width: 70%;
-    padding: 0rem 3rem;
-}
 .btn-container{
     width: 100%;
     position: absolute;
